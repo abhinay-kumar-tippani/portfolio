@@ -39,7 +39,7 @@ const Hero = () => {
                 letterSpacing: '-0.02em',
               }}
             >
-              I Build Websites That<br />Grow Your Business.
+              I Build Professional Websites<br />for Doctors & Clinics in Hyderabad
             </h1>
 
             <p
@@ -50,7 +50,7 @@ const Hero = () => {
                 maxWidth: '480px',
               }}
             >
-              Professional websites for doctors, clinics, and local businesses in Hyderabad. Clean design, fast delivery, real results.
+              Clean, fast, and patient-friendly websites that help your clinic get found online and book more appointments. Ready in 72 hours.
             </p>
 
             <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap', marginTop: '8px' }}>
@@ -58,7 +58,7 @@ const Hero = () => {
                 See My Work
               </a>
               <a
-                href="https://wa.me/918074782997"
+                href="https://wa.me/918074782997?text=Hi%20Abhinay%2C%20I%20saw%20your%20portfolio%20and%20I%27m%20interested%20in%20a%20website%20for%20my%20clinic."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-outline"
@@ -76,10 +76,10 @@ const Hero = () => {
           <div className="trust-card-wrapper" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <div className="card" style={{ padding: '32px', width: '100%', maxWidth: '400px', display: 'flex', flexDirection: 'column', gap: '20px' }}>
               {[
-                { icon: '⚡', text: 'Website Ready in 48–72 Hours' },
-                { icon: '📱', text: 'Mobile-First Design' },
-                { icon: '🔒', text: 'Free Revisions Included' },
-                { icon: '💬', text: 'Direct WhatsApp Support' },
+                { icon: '🏥', text: 'Clinic & Doctor Website Specialist' },
+                { icon: '⚡', text: 'Website Ready in 72 Hours' },
+                { icon: '📱', text: 'Mobile-First, Patient-Friendly Design' },
+                { icon: '💬', text: 'Direct WhatsApp Support Always' },
               ].map((item, index) => (
                 <div key={index} style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
                   <div

@@ -1,6 +1,6 @@
 const Services = () => {
   const services = [
-    { icon: '🏥', title: 'Business Website', desc: 'Professional website that represents your business 24/7 and brings in leads.' },
+    { icon: '🏥', title: 'Clinic & Doctor Websites', desc: 'Complete professional website for your clinic — appointments, doctor profile, services, patient trust. Ready in 72 hours.', special: true },
     { icon: '📄', title: 'Landing Page', desc: 'One focused page that converts visitors into customers or patients.' },
     { icon: '🛒', title: 'E-Commerce', desc: 'Online store with product listings, cart, and payment integration.' },
     { icon: '🔍', title: 'SEO Optimization', desc: 'Get found on Google by patients and customers searching near you.' },
@@ -32,9 +32,15 @@ const Services = () => {
                 alignItems: 'center',
                 textAlign: 'center',
                 transition: 'all 0.3s ease',
-                borderLeft: '4px solid transparent',
+                borderLeft: service.special ? '3px solid #2563EB' : '4px solid transparent',
+                background: service.special ? '#EFF6FF' : undefined,
               }}
             >
+              {service.special && (
+                <span style={{ background: '#2563EB', color: '#fff', fontSize: '10px', padding: '2px 8px', borderRadius: '10px', marginBottom: '12px', fontWeight: 600 }}>
+                  Most Popular
+                </span>
+              )}
               <div style={{ fontSize: '40px', marginBottom: '16px' }}>{service.icon}</div>
               <h3 style={{ fontSize: '18px', marginBottom: '12px' }}>{service.title}</h3>
               <p style={{ color: 'var(--color-text-secondary)', fontSize: '14px', lineHeight: 1.5 }}>

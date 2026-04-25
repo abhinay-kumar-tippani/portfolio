@@ -40,10 +40,12 @@ const About = () => {
           <div style={{ display: 'flex', flexDirection: 'column', gap: '32px' }} className="reveal-element">
             <div style={{ display: 'flex', flexDirection: 'column', gap: '24px', color: 'var(--color-text-secondary)', fontSize: '18px', lineHeight: 1.6 }}>
               <p>
-                I'm <strong>Abhinay Kumar</strong>, a MERN stack developer based in Hyderabad. I help local businesses and doctors get online with professional websites that actually bring in patients and customers.
+                I'm <strong>Abhinay Kumar</strong>, a web developer based in Hyderabad specializing in websites for doctors, clinics, and healthcare businesses.
               </p>
               <p>
-                I've built 15+ projects ranging from AI tools to productivity apps. Now I'm focused on one thing: helping Hyderabad businesses grow online.
+                I understand what patients look for when they visit a doctor's website — trust, credentials, easy appointment booking, and clear contact information. I build exactly that.
+
+              My VJIT Study Portal has been used by 600+ students, proving I build things that real people actually use. I bring that same reliability to every client website.
               </p>
             </div>
 
